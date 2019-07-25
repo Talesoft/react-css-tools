@@ -1,5 +1,5 @@
-import { className } from '../src/index';
+import { classes } from '../src/index';
 
-it('should export className correctly', () => {
-    expect(className).toBeInstanceOf(Function);
+it('should export classes correctly', () => {
+    expect(classes).toBeInstanceOf(Function);
 });

@@ -19,13 +19,13 @@ TypeScript supported out-of-the-box.
 Usage
 -----
 
-### className(...args)
+### classes(...args)
 
 ```jsx
-import { className } from '@talesoft/react-css-tools';
+import { classes } from '@talesoft/react-css-tools';
 
 function MyComponent(props) {
-    return <div className={className('MyComponent', props.active && 'active')}>
+    return <div className={classes('MyComponent', props.active && 'active')}>
         Hello World!
     </div>;
 }

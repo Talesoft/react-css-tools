@@ -1,5 +1,5 @@
-import className from './className';
+import classes from './classes';
 
 export {
-    className,
+    classes,
 };
