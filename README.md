@@ -19,6 +19,8 @@ TypeScript supported out-of-the-box.
 Usage
 -----
 
+### className(...args)
+
 ```jsx
 import { className } from '@talesoft/react-css-tools';
 
